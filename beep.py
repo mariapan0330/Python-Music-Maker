@@ -1,7 +1,6 @@
 import winsound
 
-freq = [400,500]
+freq = 500
 dur = 300
 
-for f in freq:
-    winsound.Beep(f, dur)
+winsound.Beep(freq, dur)
